@@ -3,171 +3,259 @@
 <head>
   <meta charset="UTF-8">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:700,400' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous" />
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:700,400' rel='stylesheet' type='text/css' />
+  <link rel="stylesheet" type="text/css" href="style.css" />
   <script src="script.js"></script>
-  <link rel="shortcut icon" href="favicon.ico" />
+  <link rel="shortcut icon" href="images/favicon.ico" />
   <title>Aerotek</title>
 </head>
 <body>
+
   <header>
     <div class="row header_row">
       <div class="col-md-1"></div>
-      <img class="aerotek_logo col-md-3" src="aerotek_logo.png" alt="Aerotek Logo">
-      <div class="col-md-8"></div>
+      <img class="aerotek_logo col-md-3" src="images/aerotek_logo.png" alt="Aerotek Logo" />
+      <div class="col-md-6"></div>
+      <div class="col-md-1 pull-right hidden_email">
+        <a href="" ><img src="images/email.png" alt="email" /></a>
+      </div>
+      <div class="col-md-1"></div>
     </div>
+
     <div class="row city_bg">
       <div class="col-md-1"></div>
-      <div class="col-md-5"><h1>Lorem ipsum dolor sit amet</h1>
+      <div class="col-md-5"><h1 class="heading1">Lorem ipsum dolor sit amet</h1>
         <div class="row heading">
-          <p>Odio luctus tellus, purus a eu pede, lectus fermentum faucibus viverra donec, condimentum imperdiet sed viverra pretium et enim, at in netus purus nunc.</p>
+          <p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
         </div>
         <div class="row buttons">
-          <button type="button" class="btn btn_header btn-warning">Labore Et Delore</button>
-          <button type="button" class="btn btn_header btn-success">Labore Et Delore</button>
+          <button type="button" class="btn btn_header btn-warning btn-lg">Labore Et Delore</button>
+          <button type="button" class="btn btn_header btn-warning hideon_lg">Labore Et Delore</button>
+          <button type="button" class="btn btn_header btn-success hideon_sm">Labore Et Delore</button>
         </div>
       </div>
       <div class="col-md-6"></div>
     </div>
   </header>
 
-  <div class="row content">
-    <div class="col-md-1"></div>
-    <div class="col-md-6 left_column">
-      <p>Lorem ipsum dolor sit amet, felis et amet pede. Pellentesque aliquet. Faucibus at, quis vel lacus amet, elit enim ac penatibus, lorem non elit, arcu sed velit. Ac in magna posuere aliquam odio suscipit, consequat luctus.</p>
-      <p>Magna a amet, porttitor parturient eleifend vitae, platea sed id. Nunc volutpat mattis elit, dolor arcu, hendrerit etiam at enim urna. Ipsum et.</p>
-      <p>Tellus proin feugiat nisl vel consequat, faucibus eu ullamcorper massa urna ante eu, lacus fermentum alias nec donec. Libero non commodo vel, velit dictumst. <a class="link1" href="" target="_blank">Nisl aliquam,</a> velit facilisis cras porta eu blandit.</p>
-      <div class="top row">
-        <div class="col-md-2">
-          <img src="analysis.png" alt="">
+  <div class="wrapper">
+
+    <div class="row content">
+      <div class="col-md-1"></div>
+
+  <!-- main content column -->
+
+      <div class="col-md-6 left_column">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam fermentum sapien sit amet eros blandit, quis mollis tortor semper. Curabitur efficitur urna at auctor cursus. Pellentesque congue, lorem ac auctor porta, arcu massa ultricies sapien.</p>
+        <p>En accumsan purus ligula tristique ante. Suspendisse potenti. Mauris tellus lacus, tempor at posuere vitae, blandit a libero. Suspendisse dapibus volutpat sem.</p>
+        <p>iaculis imperdiet metus pharetra luctus. Phasellus quis sodales nibh. Fusce iaculis aliquet dui, non blandit turpis lacinia ac. Suspendisse commodo sem quis bibendum scelerisque. Aliquam ultricies ipsum eget varius gravida. <a class="link1" href="" target="_blank">Phasellus quis sodales,</a> varius dictum quam id, faucibus molestie lacus. In laoreet massa tincidunt nisl fringilla, non mollis massa lacinia.</p>
+
+        <div class="border"></div>
+        <div class="top row">
+          <div class="col-md-2">
+            <img src="images/analysis.png" alt="Analysis" />
+          </div>
+          <div class="col-md-10 img_left">
+            <h2 class="text-info">Customer Analysis</h2>
+            <p>Curabitur efficitur urna at auctor cursus. Pellentesque congue, lorem ac auctor porta, arcu massa ultricies sapien. Curabitur efficitur urna at auctor cursus. Pellentesque congue, lorem ac auctor porta.</p>
+          </div>
         </div>
-        <div class="col-md-10">
-          <h2 class="text-info">Customer Analysis</h2>
-          <p>Mollis wisi nec, in velit. Metus ultricies massa, in lacinia, vivamus tristique montes. Vestibulum non ac, at venenatis purus. Commodo suspendisse pharetra, eu eu, ut orci</p>
+        <div class="middle row">
+          <div class="col-md-2">
+            <img class="sourcing_lg" src="images/sourcing.png" alt="Sourcing" />
+            <img class="sourcing_sm" src="images/sourcing_sm.png" alt="Sourcing" />
+          </div>
+          <div class="col-md-10 img_left">
+            <h2 class="text-info">Sourcing</h2>
+            <p>Curabitur efficitur urna at auctor cursus. Pellentesque congue, lorem ac auctor porta, arcu massa ultricies sapien. Curabitur efficitur urna at auctor cursus. Pellentesque congue, lorem ac auctor porta.</p>
+          </div>
         </div>
-      </div>
-      <div class="middle row">
-        <div class="col-md-2">
-          <img src="sourcing.png" alt="">
+        <div class="middle row">
+          <div class="col-md-2">
+            <img src="images/screening.png" alt="Screening" />
+          </div>
+          <div class="col-md-10 img_left">
+            <h2 class="text-info">Screening</h2>
+            <p>Curabitur efficitur urna at auctor cursus. Pellentesque congue, lorem ac auctor porta, arcu massa ultricies sapien. Curabitur efficitur urna at auctor cursus. Pellentesque congue, lorem ac auctor porta.</p>
+          </div>
         </div>
-        <div class="col-md-10">
-          <h2 class="text-info">Sourcing</h2>
-          <p>Mollis wisi nec, in velit. Metus ultricies massa, in lacinia, vivamus tristique montes. Vestibulum non ac, at venenatis purus. Commodo suspendisse pharetra, eu eu, ut orci</p>
+        <div class="middle row">
+          <div class="col-md-2">
+            <img class="sourcing_lg" src="images/selection.png" alt="Selection" />
+            <img class="sourcing_sm" src="images/selection_sm.png" alt="Selection" />
+          </div>
+          <div class="col-md-10 img_left">
+            <h2 class="text-info">Selection</h2>
+            <p>Curabitur efficitur urna at auctor cursus. Pellentesque congue, lorem ac auctor porta, arcu massa ultricies sapien. Curabitur efficitur urna at auctor cursus. Pellentesque congue, lorem ac auctor porta.</p>
+          </div>
         </div>
-      </div>
-      <div class="middle row">
-        <div class="col-md-2">
-          <img src="screening.png" alt="">
+        <div class="bottom row">
+          <div class="col-md-2">
+            <img src="images/monitoring.png" alt="Monitoring" />
+          </div>
+          <div class="col-md-10 img_left">
+            <h2 class="text-info">Performance Monitoring</h2>
+            <p>Curabitur efficitur urna at auctor cursus. Pellentesque congue, lorem ac auctor porta, arcu massa ultricies sapien. Curabitur efficitur urna at auctor cursus. Pellentesque congue, lorem ac auctor porta.</p>
+          </div>
         </div>
-        <div class="col-md-10">
-          <h2 class="text-info">Screening</h2>
-          <p>Mollis wisi nec, in velit. Metus ultricies massa, in lacinia, vivamus tristique montes. Vestibulum non ac, at venenatis purus. Commodo suspendisse pharetra, eu eu, ut orci</p>
+        <div class="border"></div>
+        <p>Curabitur at dolor augue. Pellentesque non tortor sem. Donec id pellentesque massa. Mauris molestie lectus tellus, ut lobortis velit ornare id. Integer non dolor vel massa iaculis tincidunt. Suspendisse condimentum elementum urna, semper congue enim euismod at. Aliquam sapien ipsum, porta at gravida ac, viverra vitae arcu. Vivamus at nisi in ex consectetur pellentesque at eget justo. Nullam cursus fermentum egestas. Sed odio eros, dapibus sed dictum ut, tristique at libero.</p>
+        <p>Vivamus lorem erat, tristique in nibh in:</p>
+        <ul class="list-group">
+          <li> Duis feugiat dui est. Suspendisse non sem placerat</li>
+          <li> <strong>Duis feugiat dui est</strong> Nulla vitae ullamcorper arcu. Donec ultricies finibus hendrerit. nec varius nibh, id commodo enim.</li>
+          <li> Duis feugiat</li>
+          <li> <strong>Duis feugiat dui est.</strong> Suspendisse non sem placerat. Duis feugiat dui est non sem placerat feugiat dui est sem placerat</li>
+        </ul>
+
+        <p>Donec ut magna a dui condimentum mollis at nec lacus. Donec sit amet odio ut mi porttitor mollis. Mauris erat orci, egestas finibus tincidunt et, maximus tincidunt nisi. Pellentesque lacinia volutpat arcu eget tempor. Duis feugiat dui est. Suspendisse non sem placerat, vulputate leo sit amet, rhoncus ipsum. Sed sit amet ultricies urna. Cras metus neque, accumsan eget porta non, dignissim id odio.</p>
+
+      <!-- accordion information section -->
+        <div class="accordion">
+          <div id="one" class="section">
+            <a href="#one"><h2 class="one text-info">Sign-up to View<span class="glyphicon glyphicon-chevron-down pull-right" aria-hidden="true"></span></h2></a>
+            <div id="pone">
+              <div class="inform">
+                <strong>Information</strong>
+              </div>
+              <p>Curabitur efficitur urna at auctor cursus. Pellentesque congue, lorem ac auctor porta, arcu massa ultricies sapien. Curabitur efficitur urna at auctor cursus. Pellentesque congue, lorem ac auctor porta. Curabitur efficitur urna at auctor cursus. <a class="link2" href="" target="_blank">Pellentesque congue,</a> lorem ac auctor porta.</p>
+              <p>Donec nec varius nibh, id commodo enim. Maecenas hendrerit tempus dignissim. Curabitur ut feugiat diam, ac commodo est. Etiam ac mauris lacus. Donec nec varius nibh, id commodo enim. Maecenas hendrerit tempus dignissim. Curabitur ut feugiat diam, ac commodo est.</p>
+              <button type="button" class="row btn btn_header btn-warning pull-right">Labore Et Delore</button>
+            </div>
+          </div>
+          <div id="two" class="section">
+            <a href="#two"><h2 class="text-info">Maecenas henderit tempus<span class="glyphicon glyphicon-chevron-down pull-right" aria-hidden="true"></span></h2></a>
+            <div id="ptwo">
+              <p>Curabitur efficitur urna at auctor cursus. Pellentesque congue, lorem ac auctor porta, arcu massa ultricies sapien. Curabitur efficitur urna at auctor cursus. Pellentesque congue, lorem ac auctor porta. Curabitur efficitur urna at auctor cursus. <a class="link2" href="" target="_blank">Pellentesque congue,</a> lorem ac auctor porta.</p>
+              <p>Donec nec varius nibh, id commodo enim. Maecenas hendrerit tempus dignissim. Curabitur ut feugiat diam, ac commodo est. Etiam ac mauris lacus. Donec nec varius nibh, id commodo enim. Maecenas hendrerit tempus dignissim. Curabitur ut feugiat diam, ac commodo est.</p>
+            </div>
+          </div>
+          <div id="three" class="section">
+            <a href="#three"><h2 class="text-info">Etiam ac mauris lacus<span class="glyphicon glyphicon-chevron-down pull-right" aria-hidden="true"></span></h2></a>
+            <div id="pthree">
+              <p>Curabitur efficitur urna at auctor cursus. Pellentesque congue, lorem ac auctor porta, arcu massa ultricies sapien. Curabitur efficitur urna at auctor cursus. Pellentesque congue, lorem ac auctor porta. Curabitur efficitur urna at auctor cursus. <a class="link1" href="" target="_blank">Pellentesque congue,</a> lorem ac auctor porta.</p>
+              <p>Donec nec varius nibh, id commodo enim. Maecenas hendrerit tempus dignissim. Curabitur ut feugiat diam, ac commodo est. Etiam ac mauris lacus. Donec nec varius nibh, id commodo enim. Maecenas hendrerit tempus dignissim. Curabitur ut feugiat diam, ac commodo est.</p>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="middle row">
-        <div class="col-md-2">
-          <img src="selection.png" alt="">
+      <!-- ^^^accordion information section^^^ -->
+
+        <div class="row money">
+          <div class="box">
+            <div class="headline text-info">HEADLINE</div>
+            <div class="boxc">
+              <img class="col-md-4" src="images/dollar.png" alt="Dollar" />
+              <div class="box_content col-md-8">
+                Curabitur ut feugiat diam, ac commodo est. Etiam ac mauris lacus. Donec nec varius nibh, id commodo enim.
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <div class="headline text-info">HEADLINE</div>
+            <div class="boxc">
+              <img class="col-md-4" src="images/dollar.png" alt="Dollar" />
+              <div class="box_content col-md-8">
+                Curabitur ut feugiat diam, ac commodo est. Etiam ac mauris lacus. Donec nec varius nibh, id commodo enim.
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="col-md-10">
-          <h2 class="text-info">Selection</h2>
-          <p>Mollis wisi nec, in velit. Metus ultricies massa, in lacinia, vivamus tristique montes. Vestibulum non ac, at venenatis purus. Commodo suspendisse pharetra, eu eu, ut orci</p>
-        </div>
-      </div>
-      <div class="bottom row">
-        <div class="col-md-2">
-          <img src="monitoring.png" alt="">
-        </div>
-        <div class="col-md-10">
-          <h2 class="text-info">Performance Monitoring</h2>
-          <p>Mollis wisi nec, in velit. Metus ultricies massa, in lacinia, vivamus tristique montes. Vestibulum non ac, at venenatis purus. Commodo suspendisse pharetra, eu eu, ut orci</p>
-        </div>
-      </div>
     </div>
 
 
-<!-- contact information colummn -->
+  <!-- contact information colummn -->
 
-    <div class="col-md-4 right_column">
-      <div class="row email">
-        <img src="email.png" alt="">
-        <div class="learn">
-          <p class="text-info">I want to learn more about your services</p>
+      <div class="col-md-4 right_column">
+        <div class="row email">
+          <img src="images/email.png" alt="Email" />
+          <div class="learn">
+            <p class="text-info hideon_sm">I want to learn more about your services</p>
+            <p class="text-info sm_info">Want more information about working with Aerotek?</p>
+          </div>
         </div>
-      </div>
-      <div class="container">
-        <form class="form-horizontal" role="form">
-          <div class="form-group">
-            <label class="control-label col-sm-3">First&nbsp;Name:</label>
-            <div class="col-sm-9">
-              <input type="text" class="form-control">
+        <div class="container">
+          <form class="form-horizontal">
+            <div class="form-group">
+              <label class="control-label col-sm-3">First&nbsp;Name:</label>
+              <div class="col-sm-9">
+                <input type="text" class="form-control" />
+              </div>
             </div>
-          </div>
-          <div class="form-group">
-            <label class="control-label col-sm-3">Last&nbsp;Name:</label>
-            <div class="col-sm-9">
-              <input type="text" class="form-control">
+            <div class="form-group">
+              <label class="control-label col-sm-3">Last&nbsp;Name:</label>
+              <div class="col-sm-9">
+                <input type="text" class="form-control" />
+              </div>
             </div>
-          </div>
-          <div class="form-group">
-            <label class="control-label col-sm-3">Email:</label>
-            <div class="col-sm-9">
-              <input type="text" class="form-control">
+            <div class="form-group">
+              <label class="control-label col-sm-3">Email:</label>
+              <div class="col-sm-9">
+                <input type="text" class="form-control" />
+              </div>
             </div>
-          </div>
-          <div class="form-group">
-            <label class="control-label col-sm-3">Phone:</label>
-            <div class="col-sm-9">
-              <input type="text" class="form-control">
+            <div class="form-group">
+              <label class="control-label col-sm-3">Phone:</label>
+              <div class="col-sm-9">
+                <input type="text" class="form-control" />
+              </div>
             </div>
-          </div>
-          <div class="form-group">
-            <label class="control-label col-sm-3">Title:</label>
-            <div class="col-sm-9">
-              <input type="text" class="form-control">
+            <div class="form-group">
+              <label class="control-label col-sm-3">Title:</label>
+              <div class="col-sm-9">
+                <input type="text" class="form-control" />
+              </div>
             </div>
-          </div>
-          <div class="form-group">
-            <label class="control-label col-sm-3">Company:</label>
-            <div class="col-sm-9">
-              <input type="text" class="form-control">
+            <div class="form-group">
+              <label class="control-label col-sm-3">Company:</label>
+              <div class="col-sm-9">
+                <input type="text" class="form-control" />
+              </div>
             </div>
-          </div>
-          <div class="form-group">
-            <label id="comments" class="col-sm-3">Comments:</label>
-            <div class="col-sm-9"></div>
+            <div class="form-group">
+              <label id="comments" class="col-sm-3">Comments:</label>
+              <div class="col-sm-9"></div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12">
+                <input type="text" class="form-control textarea" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12">
+                <button type="button" class="request btn btn-block btn-success">Submit Request</button>
+              </div>
+            </div>
+          </form>
+
+          <div class="row">
+            <div class="col-sm-12">
+              <p class="questions text-info">Questions?</p>
+            </div>
           </div>
           <div class="row">
             <div class="col-sm-12">
-              <input type="text" class="form-control textarea">
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-sm-12">
-              <button type="button" class="request btn btn-block btn-success">Submit Request</button>
-            </div>
-          </div>
-        </form>
-
-        <div class="row">
-          <div class="col-sm-12">
-            <p class="questions text-info">Questions?</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-12">
-            <p class="questions_content">Tristique risus volutpat, wisi sit. Unde vel, sed natoque lacinia. Interdum dignissim lorem, aliquam fusce dolor, eget duis.</p>
-            <div class="submit_button">
-              <button type="button" class="btn btn-info pull-right">Labore et Dolore <div class="glyphicon glyphicon-chevron-right"></div></button>
+              <p class="questions_content">Tristique risus volutpat, wisi sit. Unde vel, sed natoque lacinia. Interdum dignissim lorem, aliquam fusce dolor, eget duis.</p>
+              <div class="submit_button">
+                <button type="button" class="btn btn-info pull-right">Labore et Dolore <span class="glyphicon glyphicon-chevron-right"></span></button>
+              </div>
             </div>
           </div>
         </div>
-
       </div>
-
-
+      <div class="col-md-1"></div>
     </div>
-    <div class="col-md-1"></div>
+
+    <footer class="row footer_row">
+      <div class="col-md-1"></div>
+      <div class="col-md-8">
+        <div class="copyright">Copyright &copy; Aerotek All Rights Reserved</div>
+        <div class="nav">Privacy Policy | Terms and Conditions | Site Map</div>
+      </div>
+      <div class="col-md-3 social">
+        <img src="images/social.png" alt="social media links">
+      </div>
+    </footer>
   </div>
 
 </body>
